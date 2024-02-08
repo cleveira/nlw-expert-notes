@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+### NLW-Expert
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#
 
-Currently, two official plugins are available:
+## Trilha - React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projeto desenvolvido com React
 
-## Expanding the ESLint configuration
+- Vite
+- TailwindCSS
+- Typescript
+- Componentização
+- Radix UI (para uso de modal)
+- date-fns (para tratamento de datas)
+- Sonner (para exibição de toasts)
+- Hooks ==> useStates()
+- gravação de dados no LocalStorage() do navegador
+- utilização de API para gravar notas de Audio e transcrição para texto utilizando SpeechRecognition
+- Props e Functions
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Imagens das aplicação
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![alt text](./src/assets/1-principal.png)
+![alt text](./src/assets/2-add-note.png)
+![alt text](./src/assets/3-add-note-recording.png)
+![alt text](./src/assets/4-add-note-salve.png)
+![alt text](./src/assets/5-list-notes.png)
+![alt text](./src/assets/6-delete-notes.png)
+![alt text](./src/assets/7-filter-notes.png)
